@@ -1,5 +1,19 @@
-## End to End Data Engineering Project on Azure
-This project demonstrates the design and implementation of a complete **data engineering pipeline** using **Azure Data Factory**, **Azure Data Lake Storage Gen2**, **Azure Databricks**, **Apache Spark**, **Power BI**.  
-The goal of the project is to build a scalable and automated data pipeline that ingests raw data from the source, stores it securely in a data lake, transforms it using Spark-based processing, and makes it available for analytics and reporting.  
-This project follows a multi-zone architecture (Raw → Transformation → Curated) and showcases cloud-based orchestration, distributed data processing, and best practices in data engineering on Azure.
+## End to End Azure Data Engineering Project
+This project demonstrates an End-to-End Data Engineering Pipeline built on Microsoft Azure. 
+
+## Overview
+Data was extracted from Kaggle, processed and transformed using Azure Databricks (PySpark), and stored in Azure Data Lake Gen2. The processed data was then loaded into Azure Synapse Analytics for analysis and querying.
+Power BI was connected to Synapse to verify the connection and preview the dataset for reporting purposes.
+
+## Architecture Diagram
+Kaggle Dataset → GitHub Repo → Azure Data Factory → Data Lake Gen2(Raw Layer) → Azure Databricks (Transformation Layer) → Serving Layer → Azure Synapse Analytics → Power BI Dashboard
+
+## Tools & Technologies
+**Azure Data Factory (ADF)** – Data ingestion & pipeline orchestration
+**Azure Data Lake Gen2** – Data storage (Raw → Transformed → Serving layers)
+**Azure Databricks (PySpark)** – Data cleaning, transformation, and preparation
+**Azure Synapse Analytics** – Data warehouse, SQL views & analytics
+**Power BI** – Reporting and visualization
+**GitHub** – Version control and project hosting
+**Kaggle** – Dataset source
 
