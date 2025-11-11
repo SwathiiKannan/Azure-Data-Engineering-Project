@@ -9,11 +9,11 @@ Power BI was connected to Synapse to verify the connection and preview the datas
 Kaggle Dataset → GitHub Repo → Azure Data Factory → Data Lake Gen2(Raw Layer) → Azure Databricks (Transformation Layer) → Serving Layer → Azure Synapse Analytics → Power BI Dashboard
 
 ## Tools & Technologies
-**Azure Data Factory (ADF)** – Data ingestion & pipeline orchestration
-**Azure Data Lake Gen2** – Data storage (Raw → Transformed → Serving layers)
-**Azure Databricks (PySpark)** – Data cleaning, transformation, and preparation
-**Azure Synapse Analytics** – Data warehouse, SQL views & analytics
-**Power BI** – Reporting and visualization
-**GitHub** – Version control and project hosting
-**Kaggle** – Dataset source
+- **Azure Data Factory (ADF)** – Data ingestion & pipeline orchestration
+- **Azure Data Lake Gen2** – Data storage (Raw → Transformed → Serving layers)
+- **Azure Databricks (PySpark)** – Data cleaning, transformation, and preparation
+- **Azure Synapse Analytics** – Data warehouse, SQL views & analytics
+- **Power BI** – Reporting and visualization
+- **GitHub** – Version control and project hosting
+- **Kaggle** – Dataset source
 
