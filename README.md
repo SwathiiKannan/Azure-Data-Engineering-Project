@@ -6,23 +6,23 @@ Data was extracted from Kaggle, processed and transformed using Azure Databricks
 Power BI was connected to Synapse to verify the connection and preview the dataset for reporting purposes.
 
 ## Architecture Diagram (Project Flow)
-Kaggle Dataset
+- Kaggle Dataset
      ↓
-GitHub Repository
+- GitHub Repository
      ↓
-Azure Data Factory
+- Azure Data Factory
      ↓
-Raw Layer (Data Lake Gen2)
+- Raw Layer (Data Lake Gen2)
      ↓
-Azure Databricks (PySpark)
+- Azure Databricks (PySpark)
      ↓
-Transformation Layer (Cleaned Data)
+- Transformation Layer (Cleaned Data)
      ↓
-Serving Layer (Curated Data)
+- Serving Layer (Curated Data)
      ↓
-Azure Synapse Analytics
+- Azure Synapse Analytics
      ↓
-Power BI (Connected)
+- Power BI (Connected)
 
 ### Data Lake Architecture
 The Azure Data Lake Gen2 is organized into three layers to manage data efficiently throughout its lifecycle:
